@@ -19,13 +19,12 @@ public class Fibo
   int c = Integer.parseInt(JOptionPane.showInputDialog("Masukkan deret Fibonacci yang Anda Inginkan: "));
   int d = c-1;
   int e = 1;
-  System.out.print(a + " ");
   while(e <=d)
   {
-   System.out.print(a +" ");
    a = a+b;
    b = a-b;
    e++;
   }
+  System.out.print(a +d-1);
  }
 }
