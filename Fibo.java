@@ -17,6 +17,5 @@ public class Fibo
    b = a-b;
    e++;
   }
-  System.out.print(a +d-1);
  }
 }
